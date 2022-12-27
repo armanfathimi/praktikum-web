@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            width: 600px;
+            padding: 20px;
+        }
+
+        form div{
+            margin: 10px;
+
+        }
+
+        label {
+            display: block;
+        }
+
+        input:invalid {
+            border: none;
+            outline: 5px solid blue;
+            border-radius: 3px;
+        }
+
+        input:valid {
+            border: 2px solid red;
+            outline: inherit;
+            border-radius: inherit;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="nama">Nama pelanggan: </label>
+            <input type="text" name="nama" id="nama">
+        </div>
+
+        <div>
+            <label for="email">email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="nohp">Masukan NO HP: </label>
+            <input type="tel" name="nohp" id="nohp">
+        </div>
+
+        <div>
+            <label for="jam">Jam keberangkatan: </label>
+            <input type="time" name="jam" id="jam">
+        </div>
+
+        <div>
+            <label for="Tujuan">Tujuan keberangkatan: </label>
+            <input type="text" name="Tujuan" id="Tujuan">
+        </div>
+
+        <div>
+            <label for="angka">Jumlah tiket </label>
+            <input type="" name="number" id="angka">
+        </div>
+
+        <div>
+            <button type="submit">Pesan sekarang</button>
+        </div>
+    </form>
+</body>
+</html>

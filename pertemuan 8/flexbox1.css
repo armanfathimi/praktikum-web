@@ -1,0 +1,31 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+img {
+    height: 5rem;
+}
+
+/* Flex Countainer */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blueviolets;
+}
